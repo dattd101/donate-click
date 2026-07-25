@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const REDIRECT_DELAY_SECONDS = 5;
+const REDIRECT_DELAY_SECONDS = 2;
 
 export default function RedirectClient() {
   const [remainingSeconds, setRemainingSeconds] = useState(
